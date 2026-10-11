@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Control | Convocatorias</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main class="screen screen-light">
+        <header class="brand-bar">
+            <a class="institution-logo" href="panel.html" aria-label="Panel de control">
+                <img src="img/logo.png" alt="Instituto Tecnológico de La Laguna">
+            </a>
+            <h1>Panel de Control</h1>
+        </header>
+        <div class="toolbar">
+            <a class="button button-primary" href="nueva-convocatoria.html">Nueva Convocatoria</a>
+            <div class="toolbar-actions">
+                <a class="button button-primary" href="examinar-convocatoria.html">Filtrar</a>
+                <a class="button button-primary" href="panel.html">Exportar&nbsp; CSV</a>
+            </div>
+        </div>
+        <hr class="section-rule">
+        <article class="data-card">
+            <h2>Convocatorias Pasadas</h2>
+            <div class="table-scroll">
+                <table class="convocation-table">
+                    <thead><tr><th></th><th>Año de Convocatoria</th><th>Fecha Creada</th><th>Responsable</th></tr></thead>
+                    <tbody>
+                        <tr><td><a class="check-link" href="examinar-convocatoria.html" aria-label="Examinar convocatoria 2026">✓</a></td><td>Convocatoria de Innovación 2026</td><td>12 - 05 - 2026</td><td>Juan Carlos Herrera</td></tr>
+                        <tr><td><a class="check-link" href="examinar-convocatoria.html" aria-label="Examinar convocatoria 2025">✓</a></td><td>Programa de Becas 2025</td><td>23 - 01 - 2025</td><td>María Sánchez</td></tr>
+                        <tr><td><a class="check-link" href="examinar-convocatoria.html" aria-label="Examinar convocatoria de investigación">✓</a></td><td>Proyectos de Investigación Aplicada</td><td>18 - 11 - 2024</td><td>Laura Méndez</td></tr>
+                        <tr><td><a class="check-link" href="examinar-convocatoria.html" aria-label="Examinar convocatoria de servicio social">✓</a></td><td>Servicio Social Comunitario</td><td>06 - 09 - 2024</td><td>Roberto Castillo</td></tr>
+                        <tr><td><a class="check-link" href="examinar-convocatoria.html" aria-label="Examinar convocatoria docente">✓</a></td><td>Actualización Docente 2024</td><td>15 - 06 - 2024</td><td>Elena Ramírez</td></tr>
+                        <tr><td><a class="check-link" href="examinar-convocatoria.html" aria-label="Examinar convocatoria de movilidad">✓</a></td><td>Movilidad Académica Primavera</td><td>28 - 02 - 2024</td><td>Daniel Ortega</td></tr>
+                        <tr><td><a class="check-link" href="examinar-convocatoria.html" aria-label="Examinar convocatoria de emprendimiento">✓</a></td><td>Fondo de Emprendimiento Institucional</td><td>10 - 10 - 2023</td><td>Patricia Gómez</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="pagination">
+                <span>1–65</span>
+                <span class="pagination-buttons"><button type="button" aria-label="Página anterior">‹</button><button type="button" aria-label="Página siguiente">›</button></span>
+            </div>
+        </article>
+        <a class="button button-primary button-session" href="index.html">Cerrar sesión</a>
+    </main>
+</body>
+</html>
